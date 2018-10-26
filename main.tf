@@ -1,6 +1,6 @@
 resource "linode_instance" "nginx" {
-  region = "us-east"
-  type = "g6-nanode-1"
+  region = "${var.region}"
+  type = "${var.type}"
 
   image = "linode/debian9"
   swap_size = 256
