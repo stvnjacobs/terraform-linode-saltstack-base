@@ -3,7 +3,7 @@
 This is a simple example of using the `salt-masterless` provisioner in Terraform to provision Linodes.
 It is meant to be a starting point that can be cloned and modified.
 
-This example [creates a Linode](/main.tf) and [installs nginx](/salt/).
+This example [creates a Linode](/main.tf) and [installs Nginx](/salt/).
 
 ## Getting Started
 
